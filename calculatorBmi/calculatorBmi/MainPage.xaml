@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalculatorBmi"
+             x:Class="calculatorBmi.MainPage">
+    <ContentPage.Content>
+
+        <StackLayout Padding="30">
+            <Label Text="Your login" HorizontalOptions="Center"/>
+ 
+            <Editor x:Name="login" Text="Fill"  TextChanged="EditorTextChanged"  />
+            <Editor x:Name="password" Text="Fill Password" TextChanged="EditorTextChanged"/>
+
+            <Button x:Name="btn" Clicked="buttonNextPage_Click" Text="Submit" FontSize="14" BorderColor="Black" MinimumWidthRequest="25" MinimumHeightRequest="50"/>
+        </StackLayout>
+
+       
+    </ContentPage.Content>
+</ContentPage>

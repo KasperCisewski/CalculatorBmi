@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calculatorBmi.pages.HiscoresPage"
+             Title="HiscoresPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="In future, I would like to have a database with users and in this, I would like to storage their top10 results(present result minus last result) "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
